@@ -1,0 +1,11 @@
+<resources>
+    <!-- Define a custom theme -->
+    <style name="AppThemeWithPinkBorder" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Set the window background to pink -->
+        <item name="android:windowBackground">@drawable/pink_border_background</item>
+    </style>
+    <style name="AppThemeWithoutPinkBorder" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Set the window background to a different color or drawable -->
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+</resources>
